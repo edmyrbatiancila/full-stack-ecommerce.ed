@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
-  outline: 1px dotted red;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
