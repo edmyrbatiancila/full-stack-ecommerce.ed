@@ -9,13 +9,13 @@
 <hr/>
 <ul>
     <li><h3>What I have done so far?</h3></li>
-    <ol>
+    <ol type="1">
         <li>Done with the Frontend side</li>
         <li>Created a pop-up sign-up and login page</li>
         <li>Integrated the assets and added some functionality in Cart Page</li>
     </ol>
-    <li>What to do next?</li>
-    <ol>
+    <li><h3>What to do next?</h3></li>
+    <ol type="1">
         <li>Working on the backend side</li>
         <li>Design the DBMS of the user login/sign-up/cart-items and etc.</li>
         <li>Integrate the stripe API for payment method</li>
