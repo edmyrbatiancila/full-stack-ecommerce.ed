@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { assets } from "../../assets/assets";
 import { Link } from 'react-router-dom';
+import { StoreContext } from "../../context/StoreContext";
 
 const Navbar = ({ setShowLogin }) => {
 
     const [menu, setMenu] = useState("home");
+
+    // Below functionality is for showing dot sign if user is adding item in the cart. If the totalCartItems is set to zero it should not be showing.
+    const {getTotalCartAmount} = useContext(StoreContext);
 
     return (
       <div className="navbar">
@@ -48,7 +52,7 @@ const Navbar = ({ setShowLogin }) => {
             <Link to="/Cart">
               <img src={assets.basket_icon} alt="" />
             </Link>
-            <div className="dot"></div>
+            <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
           </div>
           <button onClick={() => setShowLogin(true)}>sign in</button>
         </div>
