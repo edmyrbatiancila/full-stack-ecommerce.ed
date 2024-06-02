@@ -1,10 +1,10 @@
 <h1>Food Ecommerce(Full Stack)</h1>
 <hr/>
-Practicing food e-commerce website with front-end and back-end.
-youtube link: 
-
-Front-End: https://www.youtube.com/watch?v=9jRTo7ILxQc.
-Back-End: https://www.youtube.com/watch?v=DBMPXJJfQEA.
+<p>Practicing food e-commerce website with front-end and back-end.</p>
+<br>
+<p">Youtube link:</p>
+<p>Front-End: https://www.youtube.com/watch?v=9jRTo7ILxQc.</p>
+<p>Back-End: https://www.youtube.com/watch?v=DBMPXJJfQEA.</p>
 
 <hr/>
 <ul>
