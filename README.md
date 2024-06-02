@@ -1,3 +1,23 @@
-# practice-ecommerce.ed
+<h1>Food Ecommerce(Full Stack)</h1>
+<hr/>
 Practicing food e-commerce website with front-end and back-end.
-yooutube link: https://www.youtube.com/watch?v=9jRTo7ILxQc
+youtube link: 
+
+Front-End: https://www.youtube.com/watch?v=9jRTo7ILxQc.
+Back-End: https://www.youtube.com/watch?v=DBMPXJJfQEA.
+
+<hr/>
+<ul>
+    <li><h3>What I have done so far?</h3></li>
+    <ol>
+        <li>Done with the Frontend side</li>
+        <li>Created a pop-up sign-up and login page</li>
+        <li>Integrated the assets and added some functionality in Cart Page</li>
+    </ol>
+    <li>What to do next?</li>
+    <ol>
+        <li>Working on the backend side</li>
+        <li>Design the DBMS of the user login/sign-up/cart-items and etc.</li>
+        <li>Integrate the stripe API for payment method</li>
+    </ol>
+</ul>
