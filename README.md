@@ -24,3 +24,6 @@
         <li>Integrate the stripe API for payment method</li>
     </ol>
 </ul>
+<hr>
+<h3>Days Spent in this Exercise Project:</h3>
+<b>Spent 5 days and counting....</b>
