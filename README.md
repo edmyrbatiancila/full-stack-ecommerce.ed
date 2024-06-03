@@ -13,11 +13,14 @@
         <li>Done with the Frontend side</li>
         <li>Created a pop-up sign-up and login page</li>
         <li>Integrated the assets and added some functionality in Cart Page</li>
+        <li>Done to structure the database inputs and outputs using MongoDB.</li>
+        <li>Integrated properly the backend side and call it in admin side using API endpoint.</li>
+        <li>Done to implement the Create, Retrieve, and Delete food item functionality in the admin side.</li>
     </ol>
     <li><h3>What to do next?</h3></li>
     <ol type="1">
-        <li>Working on the backend side</li>
-        <li>Design the DBMS of the user login/sign-up/cart-items and etc.</li>
+        <li>Connect the admin user to the database</li>
+        <li>Create database for user login and registration</li>
         <li>Integrate the stripe API for payment method</li>
     </ol>
 </ul>
