@@ -37,4 +37,6 @@ hr {
 
 .cursor {
   cursor: pointer;
+  color: red;
+  font-weight: 500;
 }

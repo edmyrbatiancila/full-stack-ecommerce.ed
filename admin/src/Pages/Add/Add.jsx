@@ -4,10 +4,7 @@ import { assets } from '../../assets/assets';
 import axios from "axios";
 import { toast } from 'react-toastify';
 
-const Add = () => {
-
-    // below is to add URL of the image added:
-    const url = "http://localhost:4000";
+const Add = ({url}) => {
 
     const [image, setImage] = useState(false);
 
