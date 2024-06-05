@@ -9,12 +9,12 @@ const loginUser = async (req, res) => {
 }
 
 const createToken = (id) => {
-    return jwt.sign({id}, process.env.TWT_SECRET);
+    return jwt.sign({id}, process.env.JWT_SECRET);
 }
 
 // register user
 const registerUser = async (req, res) => {
-    const {name, password, email} = req.body;
+    const {name, email, password} = req.body;
     try {
         // checking if user is already exists
         const exists = await userModel.findOne({email});
@@ -24,8 +24,9 @@ const registerUser = async (req, res) => {
 
         // validating email format and strong password
         if (!validator.isEmail(email)) {
-            return res.json({success: false, message: "Please enter valid Email" });
-        } 
+            return res.json({success: false, message: "Please enter valid Email"});
+        }
+
         if (password.length < 8) {
             return res.json({success: false, message: "Please enter a strong password"});
         }
