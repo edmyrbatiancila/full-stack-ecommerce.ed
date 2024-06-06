@@ -16,6 +16,8 @@
         <li>Done to structure the database inputs and outputs using MongoDB.</li>
         <li>Integrated properly the backend side and call it in admin side using API endpoint.</li>
         <li>Done to implement the Create, Retrieve, and Delete food item functionality in the admin side.</li>
+        <li>Have Successfully added user register functionality in backend side.</li>
+        <li>Done to connect an API that will register the user in the Mongo DB.</li>
     </ol>
     <li><h3>What to do next?</h3></li>
     <ol type="1">
