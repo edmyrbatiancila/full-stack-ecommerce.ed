@@ -28,10 +28,10 @@ const PlaceOrder = () => {
   const placeOrder = async (event) => {
     event.preventDefault(); // to prevent the page to auto refresh when the order is submitted.
     let orderItems = [];
-    food_list.map((item) => {
-      if(cartItems[item._id] > 0) {
-        let itemInfo = item;
-        itemInfo["quantity"] = cartItems[item._id];
+    food_list.map((items) => {
+      if(cartItems[items._id] > 0) {
+        let itemInfo = items;
+        itemInfo["quantity"] = cartItems[items._id];
         orderItems.push(itemInfo);
       }
     });

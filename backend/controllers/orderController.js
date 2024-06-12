@@ -21,27 +21,27 @@ const placeOrder = async (req, res) => {
         await userModel.findByIdAndUpdate(req.body.userId, {cartData: {}}); // clearing the cart items
 
         // logic to create payment link using stripe:
-        const line_items = req.body.items.map((item) => ({
+        const line_items = req.body.items.map((items) => ({
             price_data: {
-                currency: "inr",
-                product_data: {
-                    name: item.name
-                },
-                unit_amount: item.price * 100 * 80
+            currency: "php",
+            product_data: {
+                name: items.name,
             },
-            quantity: item.quantity
+            unit_amount: items.price * 100 * 58.42
+            },
+            quantity: items.quantity,
         }));
 
         // push the delivery items
         line_items.push({
             price_data: {
-                currency: "inr",
-                product_data: {
-                    name: "Delivery Charges"
-                },
-                unit_amount: 2 * 100 * 80
+            currency: "php",
+            product_data: {
+                name: "Delivery Charges",
             },
-            quantity: 1
+            unit_amount: 2 * 100 * 58.42
+            },
+            quantity: 1,
         });
 
         const session = await stripe.checkout.sessions.create({
@@ -59,5 +59,9 @@ const placeOrder = async (req, res) => {
     }
 }
 
+const verifyOrder = async (req, res) => {
+    
+}
 
-export {placeOrder};
+
+export {placeOrder, verifyOrder};
