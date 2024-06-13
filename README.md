@@ -19,13 +19,11 @@
         <li>Have Successfully added user register functionality in backend side.</li>
         <li>Done to connect an API that will register the user in the Mongo DB.</li>
         <li>Successfully integrated the Stripe Payment to the front-end and back-end side.</li>
-    </ol>
-    <li><h3>What to do next?</h3></li>
-    <ol type="1">
         <li>Connect the admin user to the database</li>
         <li>Create database for user login and registration</li>
+        <li>Connec the admin, frontend and backend</li>
     </ol>
 </ul>
 <hr>
 <h3>Days Spent in this Exercise Project:</h3>
-<b>Spent 5 days and counting....</b>
+<b>Spent 2 weeks done on June 14, 2024...</b>
